@@ -63,8 +63,6 @@ public class Sorteio {
             p.setClasse(classe);
 
             response.put(player, p);
-
-            System.out.println(player + " // " + origem + " -- " + classe);
         }
 
         return response;
