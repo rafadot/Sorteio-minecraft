@@ -1,9 +1,6 @@
 package com.sorteiominecraft.Sorteiominecraft;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
+import java.util.*;
 
 public class Sorteio {
     private final ArrayList<String> players = new ArrayList<>();
@@ -49,7 +46,7 @@ public class Sorteio {
         ArrayList<String> origens1 = origens;
         ArrayList<String> classes1 = classes;
 
-        Map<String, Player> response = new HashMap<>();
+        Map<String, Player> response = new LinkedHashMap<>();
 
         for (String player : players) {
             Player p = new Player();

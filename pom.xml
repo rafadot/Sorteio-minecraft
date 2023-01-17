@@ -14,45 +14,13 @@
 	<name>Sorteio-minecraft</name>
 	<description>Criando um sorteio de classes e origens no minecraft</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-validation</artifactId>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>3.0.0</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter -->
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-boot-starter</artifactId>
-			<version>3.0.0</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.json/json -->
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20220924</version>
 		</dependency>
 
 		<dependency>
@@ -61,11 +29,7 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -76,11 +40,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-test</artifactId>
-			<scope>test</scope>
-		</dependency>
+
 	</dependencies>
 
 	<build>
