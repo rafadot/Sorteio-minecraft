@@ -14,7 +14,7 @@
 	<name>Sorteio-minecraft</name>
 	<description>Criando um sorteio de classes e origens no minecraft</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
