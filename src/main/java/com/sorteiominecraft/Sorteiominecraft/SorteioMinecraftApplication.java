@@ -12,6 +12,6 @@ public class SorteioMinecraftApplication {
 		SpringApplication.run(SorteioMinecraftApplication.class, args);
 	}
 
-	//teste
+	//teste1
 
 }
