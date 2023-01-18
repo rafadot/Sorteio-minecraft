@@ -36,4 +36,11 @@ public class SorteioController {
         return new ResponseEntity<>(sorteio.getClasses() , HttpStatus.OK);
     }
 
+    @GetMapping("/players")
+    public ResponseEntity<Map<String, ArrayList<String>>> getPlayers(){
+        Sorteio sorteio = new Sorteio();
+
+        return new ResponseEntity<>(sorteio.getPlayers() , HttpStatus.OK);
+    }
+
 }

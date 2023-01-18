@@ -67,8 +67,10 @@ public class Sorteio {
         return response;
     }
 
-    public ArrayList<String> getPlayers() {
-        return players;
+    public Map<String, ArrayList<String>> getPlayers() {
+        Map<String, ArrayList<String>> response = new LinkedHashMap<>();
+        response.put("Players" , this.players);
+        return response;
     }
 
     public Map<String, ArrayList<String>> getClasses() {
