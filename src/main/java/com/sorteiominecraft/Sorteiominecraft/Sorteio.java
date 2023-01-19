@@ -42,7 +42,6 @@ public class Sorteio {
         this.origens.add("Fae");
         this.origens.add("Siren");
         this.origens.add("Yeti");
-        this.origens.add("Arachnae");
         this.origens.add("Werewolf");
         this.origens.add("Plague Victim");
         this.origens.add("Paladin");
