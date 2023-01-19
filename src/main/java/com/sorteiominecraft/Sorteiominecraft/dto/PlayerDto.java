@@ -1,4 +1,4 @@
-package com.sorteiominecraft.Sorteiominecraft;
+package com.sorteiominecraft.Sorteiominecraft.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Player {
+public class PlayerDto {
     private String origem;
     private String classe;
 }
