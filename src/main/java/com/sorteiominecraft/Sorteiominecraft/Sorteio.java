@@ -15,6 +15,7 @@ public class Sorteio {
         this.players.add("Dot");
         this.players.add("Tobias");
 
+        //Classes
         this.classes.add("Fazendeiro");
         this.classes.add("Rancheiro");
         this.classes.add("Minerador");
@@ -26,6 +27,7 @@ public class Sorteio {
         this.classes.add("Guerreiro");
         this.classes.add("Mestre das Feras");
 
+        //Origens
         this.origens.add("Aviário");
         this.origens.add("Aracnídio");
         this.origens.add("Elitriano");
@@ -33,6 +35,28 @@ public class Sorteio {
         this.origens.add("Enderiano");
         this.origens.add("Oceânico");
         this.origens.add("Vulto");
+        this.origens.add("Goblin");
+        this.origens.add("Elf");
+        this.origens.add("Knight");
+        this.origens.add("Daemon");
+        this.origens.add("Fae");
+        this.origens.add("Siren");
+        this.origens.add("Yeti");
+        this.origens.add("Arachnae");
+        this.origens.add("Werewolf");
+        this.origens.add("Plague Victim");
+        this.origens.add("Paladin");
+        this.origens.add("Slime");
+        this.origens.add("Ogre");
+        this.origens.add("Troll");
+        this.origens.add("Dwarf");
+        this.origens.add("Gorgon");
+        this.origens.add("Moth");
+        this.origens.add("Minotaur");
+        this.origens.add("Deer");
+        this.origens.add("Demon");
+        this.origens.add("Wood Elf");
+        this.origens.add("Piglin Brute");
     }
 
     public Map<String , PlayerDto> soteia(){
